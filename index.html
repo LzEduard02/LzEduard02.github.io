@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Luiz | Eng. Controle e Automação</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Roboto', sans-serif; background: #f4f4f4; color: #333; line-height: 1.6; }
+    header { background: #1a202c; color: #fff; padding: 2rem 1rem; text-align: center; }
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1.2rem; margin-top: 0.5rem; }
+    .contact-top { margin-top: 1rem; font-size: 0.9rem; }
+    .contact-top a { color: #63b3ed; text-decoration: none; }
+    .contact-top a:hover { text-decoration: underline; }
+    section { max-width: 960px; margin: 2rem auto; padding: 0 1rem; }
+    h2 { color: #1a202c; margin-bottom: 1rem; border-bottom: 2px solid #ccc; padding-bottom: 0.5rem; }
+    .project {
+      background: #fff; padding: 1.5rem; border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 2rem;
+    }
+    .project h3 { margin-bottom: 0.5rem; color: #2d3748; }
+    .project p { margin-bottom: 0.5rem; }
+    .tags { font-size: 0.9rem; color: #555; }
+    .more-content { display: none; margin-top: 1rem; }
+    .read-more-btn {
+      background: #3182ce; color: #fff; border: none; padding: 0.5rem 1rem;
+      border-radius: 4px; cursor: pointer;
+    }
+    .read-more-btn:hover { background: #2b6cb0; }
+    footer {
+      background: #1a202c; color: #fff; text-align: center; padding: 1rem; margin-top: 3rem;
+    }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Luiz - Eng. de Controle e Automação</h1>
+    
+    <div class="contact-top">
+      <p>Email: <a href="eduardolima0122@outlook.com">eduardolima0122@outlook.com</a> | 
+      LinkedIn: <a href="https://linkedin.com/in/seuusuario" target="_blank">linkedin.com/in/seuusuario</a> |
+      
+    </div>
+  </header>
+
+  <section>
+    <h2>Sobre Mim</h2>
+    <p>
+      Sou recém formado em Engenharia de Controle e Automação e atualmente trabalho na área de projetos, participando de iniciativas de melhoria contínua aplicando metodologias Lean e Six Sigma.
+      Tenho experiência no desenvolvimento de produtos, elaboração de desenhos técnicos nos softwares CAD e Inventor, e já atuei como técnico de instalações de equipamentos elétricos para automação residencial.
+    </p>
+    <p>
+      Considero-me um profissional versátil e criativo, tendo atuado em diferentes setores e participado de soluções que exigiram integração de diversas áreas do conhecimento.
+      Sou entusiasta da aplicação de tecnologias para melhoria de processos e resolução de problemas.
+    </p>
+  </section>
+
+  <section>
+    <h2>Projetos</h2>
+
+    <div class="project">
+      <h3>Monitoramento de Macronutrientes NPK + Irrigação Automática</h3>
+      <p>Sistema baseado em ESP32 com sensor NPK-S e umidade capacitiva, com acionamento automático de bomba de água via Blynk.</p>
+      <p class="tags">Tecnologias: ESP32, Sensor NPK-S, Sensor de Umidade, Blynk, C++, RS485</p>
+      <p><a href="#">Ver código no GitHub</a> | <a href="#">Ver vídeo de demonstração</a></p>
+      <button class="read-more-btn" onclick="toggleMore(this)">Ler mais</button>
+      <div class="more-content">
+        <p>Este projeto foi desenvolvido utilizando um microcontrolador ESP32, integrando sensores para análise de nutrientes NPK no solo e umidade. O sistema aciona automaticamente uma bomba d’água quando necessário. Utiliza comunicação RS485 para o sensor NPK-S e exibe dados no Blynk com gráficos em tempo real.</p>
+        <img src="imagens/npk-irrigacao.jpg" alt="Foto do projeto" width="100%">
+        <video src="videos/npk-irrigacao.mp4" width="100%" controls></video>
+      </div>
+    </div>
+
+    <div class="project">
+      <h3>Estação de Monitoramento de Solo com Gráficos em Tempo Real</h3>
+      <p>Protótipo de estação conectada ao Blynk para exibir dados de sensores ambientais em tempo real.</p>
+      <p class="tags">Tecnologias: ESP32, Blynk, DHT11, Sensor de Umidade, IoT</p>
+      <p><a href="#">Ver código no GitHub</a></p>
+      <button class="read-more-btn" onclick="toggleMore(this)">Ler mais</button>
+      <div class="more-content">
+        <p>Este sistema coleta dados de temperatura, umidade do solo e umidade do ar, transmitindo-os para o aplicativo Blynk. O usuário pode visualizar gráficos e históricos de dados e configurar alertas automáticos.</p>
+        <img src="imagens/estacao-solo.jpg" alt="Foto da estação" width="100%">
+      </div>
+    </div>
+
+     <div class="project">
+      <h3>projeto de melhoria</h3>
+      <p>Melhoria em setor, visando aumento de produtividade </p>
+      <p class="tags">Metodologias: Lean, Six sigma, Pareto, Boxplot</p>
+      <button class="read-more-btn" onclick="toggleMore(this)">Ler mais</button>
+      <div class="more-content">
+        <p>Este projeto foi desenvolvido em um setor chave na indústria, responsável pela fabricação do produto carro-chefe da empresa. Apesar de sua importância estratégica, o setor apresentava sérios problemas: atrasos constantes na entrega, retrabalhos frequentes e perda de qualidade, tornando-se o principal gargalo da produção.<p>
+        <p>Atuei no desenvolvimento do arranjo fisico, auxilio na coleta de dados e na aplicação de metodologias que visavam o melhor desempenho e aumento da qualidade, com o objetivo de mudar o futuro do setor.</p>
+        <p>
+         <img src="imagem/imagem01.jpeg" alt="Foto do projeto de melhoria" width="100%">
+         <p>
+          <p>
+            A imagem acima mostra o setor antes das mudanças. Podemos notar a organização "caotica", um dos pontos mais significativos, pois impactava na fluidez da produção.
+          </p>
+          <p>
+          <img src="imagem/imagem02.jpeg" alt="Foto do projeto de melhoria" width="100%">
+          <p>
+        <p>
+         O resultado foi notável: já nos primeiros testes observou-se um aumento de 50% na produção no primeiro mês, além da redução de retrabalhos e maior previsibilidade nos prazos de entrega. Esse case reforça minha capacidade de aplicar conceitos de melhoria contínua e metodologias de excelência para gerar impacto real dentro de processos industriais.
+        </p>
+          <p>
+         Durante a concepção desse projeto, eu estava fazendo meu curso de Yellow e Green belt, o que foi de grande ajuda para poder me situar e me posicionar da melhor forma possível sobre pontos chaves que foram de grande ajuda para o andamento do projeto.
+        </p>
+       
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Habilidades Técnicas</h2>
+    <ul>
+      <li>Programação: C/C++, Python, Ladder</li>
+      <li>Microcontroladores: ESP32, Arduino, STM32</li>
+      <li>Automação: CLP, sensores, instrumentação, relés</li>
+      <li>Plataformas: Blynk, Node-RED, Proteus, TinkerCAD</li>
+      <li>Protocolos: Modbus RTU, MQTT, comunicação serial</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contato</h2>
+    <p>Email: seuemail@gmail.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/seuusuario" target="_blank">linkedin.com/in/seuusuario</a></p>
+    <p>GitHub: <a href="https://github.com/seuusuario" target="_blank">github.com/seuusuario</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Luiz | Eng. de Controle e Automação</p>
+  </footer>
+
+  <script>
+    function toggleMore(button) {
+      const content = button.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+        button.textContent = "Ler mais";
+      } else {
+        content.style.display = "block";
+        button.textContent = "Ler menos";
+      }
+    }
+  </script>
+</body>
+</html>
