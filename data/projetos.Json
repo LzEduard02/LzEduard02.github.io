@@ -1,0 +1,320 @@
+[
+  {
+    "id": 1,
+    "titulo": "Sistema de Monitoramento de Macronutrientes NPK e Irrigação Automática",
+    "categoria": "automacao",
+    "resumo": "Sistema baseado em ESP32 com sensor NPK-S e umidade capacitiva, com acionamento automático de bomba de água.",
+    "tags": ["ESP32", "Sensor NPK-S", "Blynk", "C++", "RS485"],
+    "links": [
+      {"texto": "Ver código no GitHub", "url": "#"},
+      {"texto": "Ver vídeo", "url": "#"}
+    ],
+    "conteudo_extra": [
+      {
+        "tipo": "paragrafo",
+        "texto": "Este projeto foi desenvolvido como Trabalho de Conclusão de Curso em Engenharia de Controle e Automação, com o objetivo de integrar sensores e automação inteligente para o monitoramento da fertilidade do solo e controle automatizado de irrigação."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A ideia central era criar um sistema capaz de medir os níveis de Nitrogênio (N), Fósforo (P) e Potássio (K) — macronutrientes essenciais ao desenvolvimento das plantas — e, ao mesmo tempo, gerenciar a irrigação de forma autônoma, mantendo o solo em condições ideais."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A proposta surgiu da necessidade de soluções acessíveis e eficientes para o manejo de solos agrícolas, especialmente voltadas à agricultura de precisão."
+      },
+      {
+        "tipo": "link_pdf",
+        "texto": "📄 Visualizar TCC completo (PDF)",
+        "url": "arquivos/TCC_Luiz_Eduardo_Lima.pdf"
+      }
+    ]
+  },
+
+  {
+  "id": 2,
+  "titulo": "Projeto Setor Lixadeira",
+  "categoria": "melhoria",
+  "resumo": "Análise e redesenho de processo em setor crítico, aplicando Lean e Six Sigma para reduzir gargalos, mitigar retrabalhos e aumentar a produtividade.",
+  "tags": ["Lean", "Six Sigma", "Melhoria de Processo", "Gestão da Qualidade"],
+  "links": [],
+  "conteudo_extra": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Este projeto foi desenvolvido em um setor estratégico da indústria, responsável pela fabricação do produto carro-chefe da empresa. Apesar de sua relevância, o setor enfrentava problemas graves: atrasos constantes nas entregas, retrabalhos frequentes e falhas de qualidade, fatores que comprometiam diretamente o desempenho global da produção."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Diante desse cenário, recebemos a missão de reverter a situação. Desde o início, nosso foco foi identificar as causas reais dos problemas — nada baseado em suposições, mas sim em dados concretos. Para isso, realizamos uma coleta extensa de informações e análises detalhadas, garantindo que cada decisão fosse sustentada por evidências lógicas. A execução desse projeto ocorreu em paralelo ao curso de Six Sigma que eu estava realizando, o que foi fundamental para aplicar ferramentas mais técnicas e estruturadas."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Setor antes da mudança:</b>"
+    },
+    {
+      "tipo": "imagem",
+      "url": "imagem/antes_mudança.jpeg",
+      "alt": "Foto do projeto antes"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Fluxo de processo (Antes):</b>"
+    },
+    {
+      "tipo": "imagem",
+      "url": "imagem/fluxo_antes.png",
+      "alt": "Fluxo antes"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Como mostram as imagens, a situação era crítica. O setor, com pouco mais de 20 anos de existência, apresentava problemas que já haviam se tornado parte da cultura local. A desorganização trazia riscos sérios aos colaboradores, entre eles:"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "- <b>Ergonomia:</b> durante cada etapa de produção, o material acabado era colocado em caixas ao lado do operador, acumulando estoques temporários. Como alguns produtos tinham quatro ou mais etapas, isso obrigava os funcionários a se deslocarem com caixas cheias pelo setor, aumentando o esforço físico e o risco de acidentes.<br> - <b>Higiene:</b> a desorganização favorecia o acúmulo excessivo de resíduos e dificultava a limpeza do ambiente.<br> - <b>Fluxo prejudicado:</b> a má disposição dos materiais e etapas dificultava o andamento dos diversos produtos produzidos no setor, reduzindo produtividade e impactando no bem-estar do colaborador."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nas análises, implementamos melhorias estruturais e operacionais, incluindo o redesenho completo do layout e a instalação de uma esteira para melhorar o fluxo de materiais."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Setor após a mudança:</b>"
+    },
+    {
+      "tipo": "imagem",
+      "url": "imagem/depois_mudança.jpeg",
+      "alt": "Foto do projeto depois"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Novo layout (Depois):</b>"
+    },
+    {
+      "tipo": "imagem",
+      "url": "imagem/fluxo_depois.png",
+      "alt": "Fluxo depois"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Os resultados foram imediatos. Em apenas um mês, a produção aumentou cerca de 57%, passando de 14 mil para 22 mil peças. Esse aumento está dentro da margem de folga do setor, cuja capacidade máxima é de 31 mil peças. A produção não atingiu o limite máximo porque depende do volume fornecido por outro setor — a fundição. No entanto, os acumulos de estoques do setor foi reduzido drasticamente, com os estoques sendo 'queimados' a medida que era produzido pela fundição."
+    }
+  ]
+},
+
+{
+    "id": 3,
+    "titulo": "Máquina Pino Mola",
+    "categoria": "automacao",
+    "resumo": "Equipamento automatizado para recartilhar e conformar pinos mola.",
+    "tags": ["Arduino", "Melhoria de processso", "Automação industrial", "Aumento de produção"],
+    "links": [
+      {"texto": "Ver código no GitHub", "url": "#"}
+    ],
+    "conteudo_extra": [
+      {
+        "tipo": "paragrafo",
+        "texto": "Contexto: O pino mola é uma peça essencial utilizada em cortadores para fixação do cabo do produto. Apesar de simples, sua fabricação manual em um torno antigo tornava o processo lento, pouco preciso e fisicamente desgastante para o operador. Isso resultava em baixa produtividade, variação dimensional e risco de fadiga devido  ao esforço repetitivo."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Com o objetivo de modernizar o processo, melhorar a ergonomia e aumentar a capacidade de produção, desenvolvi uma máquina automatizada capaz de realizar todo o processo de recartilho com repetibilidade e segurança. O sistema utiliza pistões pneumáticos, sensores de posição, controle embarcado com Arduino e um disco indexador para garantir posicionamento preciso em cada etapa."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A automação permitiu padronizar a qualidade do pino mola, reduzir falhas e liberar o operador para atividades de maior valor agregado, elevando a eficiência geral da linha."
+      },
+      {
+        "tipo": "imagem",
+        "url": "imagens/maquina_pinoMola.jpg",
+        "alt": "Foto da maquina"
+      }
+    ]
+  },
+
+  {
+    "id": 4,
+    "titulo": "Estação de Monitoramento de Solo com Gráficos em Tempo Real",
+    "categoria": "automacao",
+    "resumo": "Protótipo de estação conectada ao Blynk para exibir dados de sensores ambientais em tempo real.",
+    "tags": ["ESP32", "Blynk", "DHT11", "IoT"],
+    "links": [
+      {"texto": "Ver código no GitHub", "url": "#"}
+    ],
+    "conteudo_extra": [
+      {
+        "tipo": "paragrafo",
+        "texto": "Este sistema coleta dados de temperatura, umidade do solo e umidade do ar, transmitindo-os para o aplicativo Blynk. O usuário pode visualizar gráficos e históricos de dados e configurar alertas automáticos."
+      },
+      {
+        "tipo": "imagem",
+        "url": "imagens/estacao-solo.jpg",
+        "alt": "Foto da estação"
+      }
+    ]
+  },
+
+  
+
+  {
+    "id": 5,
+    "titulo": "Skimer",
+    "categoria": "automacao",
+    "resumo": "Máquina automática para remoção de óleo residual de torno CNC.",
+    "tags": ["Manutenção", "Motor DC", "Automação "],
+    "links": [
+      {"texto": "Ver código no GitHub", "url": "#"}
+    ],
+    "conteudo_extra": [
+      {
+        "tipo": "paragrafo",
+        "texto": "Contexto: em operações de torno, o acúmulo de óleo contaminado ocorre de forma recorrente.Antes da automação, essa limpeza era realizada manualmente pelo operador, interrompendo o processo produtivoe reduzindo a eficiência da máquina. Para eliminar essa perda de tempo e padronizar a manutenção, desenvolvi o “Skimer”: um sistema automatizado capaz de remover o óleo contaminado de forma contínua, simples e confiável."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "O equipamento utiliza um motor DC para acionar a cinta coletora e um conjunto de componentes mecânicos e eletrônicos que garantem extração constante do óleo, mantendo o fluido limpo e reduzindo paradas desnecessárias.Essa solução aumentou a produtividade e trouxe mais segurança ao processo de usinagem."
+      },
+
+      {
+        "tipo": "imagem",
+        "url": "imagens/maquina_skimer.jpg",
+        "alt": "Foto da maquina"
+      }
+    ]
+  },
+
+{
+  "id": 6,
+  "titulo": "Projeto Setor Fundição",
+  "categoria": "melhoria",
+  "resumo": "Melhoria do fluxo de material e organização do estoque no setor de fundição, resultando em redução de desperdício de tempo e otimização do espaço.",
+  "tags": ["Lean", "Organização de Processos", "5S", "Otimização de Layout"],
+  "links": [],
+  "conteudo_extra": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O setor de fundição apresentava um problema crítico: a falta de padronização e organização no armazenamento das peças fundidas. O descarte de materiais era ineficiente, e a alocação de peças prontas e semi-prontas era realizada de maneira desordenada. Isso resultava em desperdício de tempo na busca por materiais, dificuldade no inventário e um ambiente de trabalho desorganizado."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O principal gargalo era a área de estoque. A fundição dependia de paletes e caixas padrão para armazenar as peças, mas o volume de produção excedia o espaço físico disponível, gerando pilhas desorganizadas e perdas. Além disso, a separação de diferentes tipos de peças era visualmente complexa."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Solução Implementada:</b> Para resolver o problema, redesenhamos o sistema de armazenamento."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "1.  <b>Criação de Estruturas Verticais:</b> Foram instaladas estruturas metálicas verticais e modulares, otimizando o espaço aéreo e liberando a área do chão."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "2.  <b>Padronização e Identificação (5S):</b> Implementamos a separação das peças por tipo e tamanho, com marcações visuais claras e placas de identificação. Isso facilitou o processo de contagem (inventário) e a localização imediata de qualquer material."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "3.  <b>Melhoria do Descarte:</b> O processo de descarte foi padronizado para garantir que o material não conforme fosse segregado imediatamente, reduzindo a confusão no estoque principal."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Resultados:</b> O projeto resultou em um ambiente mais seguro e organizado, uma redução significativa no tempo gasto na procura de peças (cerca de **30% de otimização no tempo de separação**) e um fluxo de material mais limpo para os setores seguintes."
+    },
+    {
+      "tipo": "imagem",
+      "url": "imagem/fundicao_antes.jpeg",
+      "alt": "Foto do setor de fundição antes"
+    },
+    {
+      "tipo": "imagem",
+      "url": "imagem/fundicao_depois.jpeg",
+      "alt": "Foto do setor de fundição depois"
+    }
+  ]
+},
+
+{
+  "id": 7,
+  "titulo": "Projeto Mesanino – Aplicação do 5S em Estoque",
+  "categoria": "melhoria",
+  "resumo": "Otimização de espaço e implementação da metodologia 5S em área de estoque de peças de montagem, resolvendo problemas de desorganização, falta de inventário e produção desnecessária.",
+  "tags": ["Otimização de Layout", "Metodologia 5S", "Gestão de Estoque", "Logística"],
+  "links": [],
+  "conteudo_extra": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O projeto Mesanino foi focado na **reorganização de uma área de estoque crítica** que acumulava peças e componentes usados na montagem de diversos produtos. A área estava extremamente desorganizada, com pilhas de peças espalhadas, dificultando a localização e o controle do material."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O principal problema não era apenas a estética, mas o **impacto operacional:** a falta de identificação e nomeação das peças fazia com que os funcionários tivessem grande dificuldade em encontrá-las. Além disso, a ausência de um monitoramento visual e de inventário causava o **'sumiço' de peças** que já estavam no estoque, levando à produção desnecessária para compensar o erro de contagem."
+    },
+
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Imagem do Setor </b>"
+    },
+
+    {
+      "tipo": "imagem",
+      "url": "imagem/mesanino01.jpeg",
+      "alt": "Mesanino sem mudança"
+    },
+
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Solução:</b> A estratégia adotada foi dupla: **1) Otimizar o espaço** com a construção do mezanino metálico, aproveitando a altura do pé-direito; e **2) Implementar a metodologia 5S** para resolver a desorganização e o controle de estoque."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Aplicação do 5S:</b>"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "- **Seiri (Utilização):** Descarte e remoção de todos os materiais obsoletos ou não utilizados na área.<br>- **Seiton (Organização):** O novo espaço no mezanino foi organizado com endereçamento, marcações e identificação clara (nomeação) de **TODAS** as peças para facilitar a localização.<br>- **Seiso (Limpeza):** Padronização dos processos de limpeza da área, que era carente de higiene.<br>- **Seiketsu (Padronização):** Criação de procedimentos visuais para reposição e retirada de peças.<br>- **Shitsuke (Disciplina):** Treinamento da equipe para manter o novo padrão de organização e controle."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Resultado:</b> A capacidade de armazenamento aumentou em cerca de 60%, mas o ganho mais significativo foi a **eliminação do retrabalho** e da **produção desnecessária** causados por falta de controle. A localização das peças tornou-se imediata, e o monitoramento do estoque foi simplificado."
+    },
+
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Layout Redefinido</b>"
+    },
+
+   {
+      "tipo": "imagem",
+      "url": "imagem/mezanino.jpeg",
+      "alt": "Layout redefinido do setor"
+    }
+  ]
+},
+
+{
+  "id": 9,
+  "titulo": "Organização Expedição– Aplicação do 5S em Estoque",
+  "categoria": "melhoria",
+  "resumo": "Otimização de espaço e implementação da metodologia 5S em área de estoque de peças de montagem, resolvendo problemas de desorganização e melhoria de fluxo.",
+  "tags": ["Otimização de Layout", "Metodologia 5S", "Gestão de Estoque", "Logística"],
+  "links": [],
+  "conteudo_extra": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Para contextualizar, a expedição é o setor responsável por armazenar, organizar, conferir, embalar e despachar os produtos após a finalização de cada pedido. Antes da intervenção, o local apresentava problemas de logística e organização: os colaboradores tinham dificuldade para localizar itens e, devido à grande variedade de produtos e diferenças na frequência de produção, os materiais críticos estavam distribuídos de maneira inadequada. Isso gerava deslocamentos desnecessários e atrasos no fluxo de trabalho."
+    },
+
+    {
+      "tipo": "imagem",
+      "url": "imagem/exped-img.jpg",
+      "alt": "Expedição Ilustração"
+    },
+    
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Resultado:</b> A capacidade de armazenamento aumentou em cerca de 60%, mas o ganho mais significativo foi a **eliminação do retrabalho** e da **produção desnecessária** causados por falta de controle. A localização das peças tornou-se imediata, e o monitoramento do estoque foi simplificado."
+    }
+    
+  ]
+}
+  
+  
+]
