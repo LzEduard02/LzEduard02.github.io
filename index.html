@@ -231,7 +231,7 @@
 
             try {
                 // Caminho para o seu novo arquivo JSON
-                const response = await fetch('data/projetos.json'); 
+                const response = await fetch('data/projects_data.json'); 
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
@@ -284,5 +284,6 @@
         });
     </script>
 </body>
+
 
 </html>
